@@ -25,5 +25,7 @@
 
 ### Events
 
-- Transfer
-- Approval
+| Event    | Description                           | Function                                                                      |
+| -------- | ------------------------------------- | ----------------------------------------------------------------------------- |
+| Transfer | Triggered when tokens are transfered  | Transfer(address indexed \_from, address indexed \_to, uint256 \_value)       |
+| Approval | Triggered when approve func is called | Approval(address indexed \_owner, address indexed \_spender, uint256 \_value) |
